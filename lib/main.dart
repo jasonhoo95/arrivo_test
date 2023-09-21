@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import "mainUser.dart";
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:arrivo_test/blocs/todos/todos_bloc.dart';
-import 'package:arrivo_test/service/user_repository.dart';
 
 void main() => runApp(new MainApp());
 

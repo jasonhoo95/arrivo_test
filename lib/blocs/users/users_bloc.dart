@@ -1,11 +1,9 @@
-import 'dart:html';
-
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import '/models/models.dart';
 import '../../service/user_repository.dart';
-part 'todos_event.dart';
-part 'todos_state.dart';
+part 'users_event.dart';
+part 'users_state.dart';
 
 class UsersBloc extends Bloc<UsersEvent, UsersState> {
   final UserRepository _userRepository;

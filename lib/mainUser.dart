@@ -1,11 +1,7 @@
-import 'dart:math';
-
-import 'package:arrivo_test/blocs/todos/todos_bloc.dart';
+import 'package:arrivo_test/blocs/users/users_bloc.dart';
 import 'package:arrivo_test/service/user_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:http/http.dart' as http;
-import 'service/user_repository.dart';
 import '/models/models.dart';
 
 void main() {

@@ -1,4 +1,4 @@
-part of 'todos_bloc.dart';
+part of 'users_bloc.dart';
 
 abstract class UsersState extends Equatable {
   const UsersState();
@@ -8,14 +8,13 @@ abstract class UsersState extends Equatable {
 }
 
 class UsersLoading extends UsersState {
-    @override
+  @override
   List<User> get props => [];
 }
 
 class UsersLoaded extends UsersState {
   const UsersLoaded(this.users);
   final List<User> users;
-
 
   @override
   List<Object?> get props => [users];
