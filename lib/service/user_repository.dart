@@ -39,8 +39,7 @@ class UserRepository {
     );
     if (response.statusCode == 200) {
       final List result = json.decode(response.body);
-      print(result);
-      print('results');
+
       if (result.length > 0) {
         return result.map<User>((json) => User.fromJson(json)).toList();
       } else {
@@ -57,8 +56,6 @@ class UserRepository {
     );
     if (response.statusCode == 200) {
       final List result = json.decode(response.body);
-      print(result);
-      print('results');
 
       return result.map<User>((json) => User.fromJson(json)).toList();
     } else {
