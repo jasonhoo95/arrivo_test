@@ -2,8 +2,6 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
-// import 'package:infogames/repository/models/model_barrel.dart';
-// import 'package:infogames/repository/models/result_error.dart';
 import '/models/models.dart';
 
 class UserRepository {
