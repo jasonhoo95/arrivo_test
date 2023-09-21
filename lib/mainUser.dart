@@ -137,6 +137,7 @@ class MyHomePage extends StatelessWidget {
                             : null,
                         child: Text('Prev'),
                       )),
+                  Center(child: Text('PAGE: $page')),
                   Container(
                       alignment: Alignment.centerRight,
                       margin: EdgeInsets.all(10),
